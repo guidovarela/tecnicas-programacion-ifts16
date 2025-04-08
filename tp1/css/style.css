@@ -1,0 +1,29 @@
+@import(url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap'));
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "inter";
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+header h1, #consigna{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.resultado{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#consigna{
+    font-style: italic;
+}
